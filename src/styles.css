@@ -309,6 +309,43 @@ h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; }
     padding-right: 5% !important;
   }
   
+  /* Footer CTA strip - center on mobile */
+  footer > div:first-child > div {
+    text-align: center;
+    justify-content: center !important;
+  }
+  footer > div:first-child > div > div {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Footer main grid - stack on mobile */
+  footer > div > div[style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    text-align: left;
+  }
+  
+  /* Footer grid class for mobile */
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 36px !important;
+  }
+  
+  /* Footer bottom bar - stack and center on mobile */
+  footer > div > div[style*="borderTop"] {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 20px !important;
+  }
+  footer > div > div[style*="borderTop"] > p {
+    text-align: center;
+    width: 100%;
+  }
+  footer > div > div[style*="borderTop"] > div {
+    justify-content: center;
+  }
+  
   /* Fix all content areas on mobile */
   div[style*="maxWidth: 1200"] {
     padding-left: 0 !important;
@@ -322,4 +359,17 @@ h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; }
   .page-hero h1 { font-size: 1.7rem !important; }
   .section-title { font-size: 1.6rem !important; }
   .stat-number { font-size: 2rem; }
+  
+  /* Footer bottom bar on small screens */
+  .footer-bottom {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 16px !important;
+  }
+  .footer-bottom p {
+    text-align: center !important;
+  }
+  .footer-bottom > div {
+    justify-content: center !important;
+  }
 }

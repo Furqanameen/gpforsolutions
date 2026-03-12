@@ -30,7 +30,7 @@ export default function Footer() {
 
       {/* Main footer */}
       <div style={{ padding: "70px 5% 40px" }}>
-        <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: 48, marginBottom: 52 }}>
+        <div className="footer-grid" style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: 48, marginBottom: 52 }}>
           {/* Brand */}
           <div>
             <img src={LOGO} alt={COMPANY_NAME} style={{ height: 54, objectFit: "contain", marginBottom: 24 }} />
@@ -114,9 +114,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div style={{ borderTop: "1px solid #1a1a2e", paddingTop: 28, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
+        <div className="footer-bottom" style={{ borderTop: "1px solid #1a1a2e", paddingTop: 28, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
           <p style={{ fontSize: 12, color: "#444" }}>© 2024 Garrison Apex Forte Solutions Ltd. All rights reserved.</p>
-          <div style={{ display: "flex", gap: 24 }}>
+          <div style={{ display: "flex", gap: 24, flexWrap: "wrap", justifyContent: "center" }}>
             {["Home", "About", "Services", "Contact"].map((p, i) => (
               <Link key={p} to={["/", "/about", "/services", "/contact"][i]}
                 style={{ fontSize: 11, color: "#444", fontFamily: "'Montserrat', sans-serif", letterSpacing: 1, textTransform: "uppercase", transition: "color 0.2s" }}
