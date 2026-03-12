@@ -377,6 +377,12 @@ h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; }
     gap: 36px !important;
   }
   
+  /* Footer logo size on mobile */
+  .footer-grid img {
+    height: 36px !important;
+    max-height: 36px !important;
+  }
+  
   /* Footer bottom bar - stack and center on mobile */
   footer > div > div[style*="borderTop"] {
     flex-direction: column !important;
