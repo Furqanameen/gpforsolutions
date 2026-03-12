@@ -92,8 +92,8 @@ export default function Navbar() {
 
         {/* Mobile hamburger */}
         <button onClick={() => setMobileOpen(!mobileOpen)}
-          style={{ display: "none", background: "none", border: "1px solid rgba(255,255,255,0.3)", color: "#fff", fontSize: 18, cursor: "pointer", padding: "6px 12px", borderRadius: 3 }}
-          className="show-mobile">
+          className="show-mobile"
+          style={{ background: "none", border: "1px solid rgba(255,255,255,0.3)", color: "#fff", fontSize: 18, cursor: "pointer", padding: "6px 12px", borderRadius: 3 }}>
           {mobileOpen ? "✕" : "☰"}
         </button>
       </nav>
