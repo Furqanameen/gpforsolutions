@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { LOGO, CONTACT_INFO, COMPANY_NAME, COMPANY_TAGLINE, COMPANY_WEBSITE } from "../data/siteData";
+import { LOGO, CONTACT_INFO, COMPANY_NAME, COMPANY_TAGLINE } from "../data/siteData";
 
 export default function Footer() {
   return (
