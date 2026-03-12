@@ -30,6 +30,7 @@ export default function HomePage() {
   const [animKey, setAnimKey] = useState(0);
 
   useEffect(() => {
+    document.title = "Garrison Apex Forte Solutions Ltd | Security Services London | SIA Licensed Guards";
     const t = setInterval(() => {
       setSlide(s => (s + 1) % HERO_SLIDES.length);
       setAnimKey(k => k + 1);

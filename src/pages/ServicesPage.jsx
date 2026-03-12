@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { SERVICES } from "../data/siteData";
 
 export default function ServicesPage() {
+  useEffect(() => {
+    document.title = "Security Services London | SIA Guards, Dog Handlers, CCTV | Garrison Apex Forte";
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', 'Professional security services in London: SIA licensed security guards, K9 dog handlers, CCTV monitoring, event security, mobile patrols. Get a free quote today!');
+    }
+  }, []);
+
   return (
     <div>
       {/* PAGE HERO */}

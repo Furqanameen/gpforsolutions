@@ -1,9 +1,20 @@
 import { useParams, Link } from "react-router-dom";
+import { useEffect } from "react";
 import { SERVICES, CONTACT_INFO } from "../data/siteData";
 
 export default function ServiceDetailPage() {
   const { slug } = useParams();
   const service = SERVICES.find(s => s.slug === slug);
+
+  useEffect(() => {
+    if (service) {
+      document.title = `${service.title} | Security Services London | Garrison Apex Forte Solutions Ltd`;
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute('content', service.metaDesc || service.desc);
+      }
+    }
+  }, [service]);
 
   if (!service) return (
     <div style={{ paddingTop: 150, textAlign: "center", minHeight: "60vh" }}>

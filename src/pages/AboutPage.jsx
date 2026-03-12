@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { CONTACT_INFO } from "../data/siteData";
 
 export default function AboutPage() {
+  useEffect(() => {
+    document.title = "About Us | Garrison Apex Forte Solutions Ltd | Security Company London";
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', 'Learn about Garrison Apex Forte Solutions Ltd - SIA approved security contractor providing professional security services in London. Our vision, mission and values.');
+    }
+  }, []);
+
   return (
     <div>
       {/* PAGE HERO */}

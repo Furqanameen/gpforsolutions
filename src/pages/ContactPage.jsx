@@ -1,8 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CONTACT_INFO } from "../data/siteData";
 
 export default function ContactPage() {
+  useEffect(() => {
+    document.title = "Contact Us | Get a Free Security Quote | Garrison Apex Forte Solutions Ltd";
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', 'Contact Garrison Apex Forte Solutions Ltd for professional security services in London. Call 0044 74 1751 5211 or email info@gpforsolutions.com. Free quotes available.');
+    }
+  }, []);
+
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
   const [sent, setSent] = useState(false);
 
