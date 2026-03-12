@@ -33,7 +33,7 @@ export default function Footer() {
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: 48, marginBottom: 52 }}>
           {/* Brand */}
           <div>
-            <img src={LOGO} alt={COMPANY_NAME} style={{ height: 54, objectFit: "contain", marginBottom: 24, filter: "brightness(0) invert(1)" }} />
+            <img src={LOGO} alt={COMPANY_NAME} style={{ height: 54, objectFit: "contain", marginBottom: 24 }} />
             <p style={{ fontSize: 13, lineHeight: 1.9, color: "#666", maxWidth: 280, marginBottom: 24 }}>
               {COMPANY_TAGLINE}. Bespoke security solutions across the UK.
             </p>
