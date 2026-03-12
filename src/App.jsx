@@ -22,18 +22,20 @@ function NotFound() {
 export default function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <main style={{ minHeight: "100vh" }}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/services" element={<ServicesPage />} />
+      <div style={{ width: '100%', maxWidth: '100%', overflowX: 'hidden', position: 'relative' }}>
+        <Navbar />
+        <main style={{ minHeight: "100vh", width: '100%', maxWidth: '100%', overflowX: 'hidden' }}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/:slug" element={<ServiceDetailPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
+      </div>
     </BrowserRouter>
   );
 }
