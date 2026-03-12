@@ -41,7 +41,7 @@ export default function Navbar() {
         {/* Desktop Nav */}
         <div style={{ display: "flex", alignItems: "center", gap: 36 }} className="hide-mobile">
           {NAV_LINKS.map(link => (
-            <div key={link.label} style={{ position: "relative" }}
+            <div key={link.label} style={{ position: "relative", paddingBottom: link.dropdown ? 12 : 0 }}
               onMouseEnter={() => link.dropdown && setDropdownOpen(true)}
               onMouseLeave={() => link.dropdown && setDropdownOpen(false)}>
               <Link to={link.path} style={{
@@ -68,7 +68,7 @@ export default function Navbar() {
                   minWidth: 230, zIndex: 999,
                   boxShadow: "0 16px 50px rgba(0,0,0,0.4)",
                   border: "1px solid rgba(255,255,255,0.05)",
-                  marginTop: 12,
+                  paddingTop: 0,
                 }}>
                   {link.dropdown.map(item => (
                     <Link key={item.label} to={item.path} style={{
