@@ -24,7 +24,7 @@ export default function ServicesPage() {
       <section style={{ padding: "80px 8%", background: "#fff" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }} className="grid-2">
           <div>
-            <img src="https://k9securityspot.co.uk/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-15-at-18.08.08-1024x1024.jpeg"
+            <img src="https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&q=80"
               alt="Garrison Apex Forte Solutions Ltd Services"
               style={{ width: "100%", objectFit: "cover", aspectRatio: "1", borderRadius: 2, boxShadow: "0 25px 70px rgba(0,0,0,0.12)" }} />
           </div>
@@ -36,7 +36,7 @@ export default function ServicesPage() {
               Garrison Apex Forte Solutions Ltd are a nationwide security company formed with the aim of delivering high quality security services to our clients.
             </p>
             <p style={{ color: "#666", lineHeight: 1.9, marginBottom: 18, fontSize: 14 }}>
-              Our head office is based in Essex with further regional offices in London, Birmingham & Hampshire. We are therefore well-positioned to provide security services to organisations across the UK.
+              Our head office is based in London with operations across the UK. We are therefore well-positioned to provide security services to organisations nationwide.
             </p>
             <p style={{ color: "#666", lineHeight: 1.9, marginBottom: 32, fontSize: 14 }}>
               We are an SIA Approved Contractor for the provision of Security Guarding.
@@ -86,7 +86,7 @@ export default function ServicesPage() {
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <Link to="/contact"><button className="btn-gold" style={{ border: "none" }}>Contact Us</button></Link>
-            <a href="tel:+447526977812"><button className="btn-outline-white">📞 Call Now</button></a>
+            <a href="tel:+447417515211"><button className="btn-outline-white">📞 Call Now</button></a>
           </div>
         </div>
       </section>

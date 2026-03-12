@@ -99,9 +99,9 @@ export default function HomePage() {
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }} className="grid-2">
           {/* Images */}
           <div style={{ position: "relative" }}>
-            <img src="http://k9securityspot.com/wp-content/uploads/2023/08/WhatsApp_Image_2023-08-15_at_18.08.08-removebg-preview.png"
+            <img src="https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&q=80"
               alt="Security Dog" style={{ width: "65%", display: "block", borderRadius: 2, boxShadow: "0 25px 70px rgba(0,0,0,0.15)" }} />
-            <img src="https://k9securityspot.co.uk/wp-content/uploads/2023/08/1-removebg-preview.png"
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
               alt="Security Team" style={{
                 width: "48%", position: "absolute", bottom: -40, right: 0,
                 borderRadius: 2, boxShadow: "0 20px 60px rgba(0,0,0,0.12)",
@@ -208,7 +208,7 @@ export default function HomePage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 2, marginTop: 48 }}>
             {[
               { icon: "🛡️", title: "SIA Approved", desc: "We are an SIA Approved Contractor for the provision of Security Guarding." },
-              { icon: "🌍", title: "Nationwide", desc: "Head office in Essex with regional offices in London, Birmingham & Hampshire." },
+              { icon: "🌍", title: "Nationwide", desc: "Head office in London with operations across the UK." },
               { icon: "⏰", title: "24/7 Service", desc: "Round-the-clock security services available whenever you need us." },
               { icon: "🏆", title: "NASDU Certified", desc: "All our security teams hold NASDU L2 qualifications, the highest industry standard." },
             ].map(item => (

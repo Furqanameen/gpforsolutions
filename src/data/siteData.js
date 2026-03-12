@@ -1,7 +1,7 @@
-export const LOGO = "https://k9securityspot.co.uk/wp-content/uploads/2023/08/cropped-WhatsApp_Image_2023-08-15_at_18.08.08-removebg-preview-2.png";
+export const LOGO = "/logo.svg";
 
 export const COMPANY_NAME = "Garrison Apex Forte Solutions Ltd";
-export const COMPANY_SHORT = "GPForSolutions";
+export const COMPANY_SHORT = "GAFS";
 export const COMPANY_TAGLINE = "Elevating Protection, Empowering Peace";
 export const COMPANY_WEBSITE = "www.gpforsolutions.com";
 
@@ -41,7 +41,7 @@ export const SERVICES = [
     icon: "🛡️",
     heroImage: "https://securityguardsinlosangeles.files.wordpress.com/2021/08/1540241634017.jpeg",
     heroSub: "Garrison Apex Forte Solutions Ltd has many years of experience delivering Manned Guarding & Security Guards to clients across the UK.",
-    image: "http://k9securityspot.com/wp-content/uploads/2024/03/360_F_101032385_2JfrN9kQ2d6eTQk4QDH3QpN2d6ukeUBX-removebg-preview.png",
+    image: "https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&q=80",
     desc: "Garrison Apex Forte Solutions Ltd have spent years delivering Manned Guarding & Security Guards to clients across the UK.",
     detail: "We specialize in delivering top-tier security solutions by deploying uniformed, trained, and thoroughly vetted Security Guards to safeguard our clients' premises and assets. Our services cater to a wide array of industries, including Construction, Retail, Commercial Sector, Industrial, Logistics, Private Estates, and Street Patrols.",
     features: [

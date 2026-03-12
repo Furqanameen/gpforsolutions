@@ -1,6 +1,6 @@
-# K9 Security Spot - React Clone
+# Garrison Apex Forte Solutions Ltd
 
-A full React.js clone of k9securityspot.co.uk with all pages, routing, images, and content.
+A React.js website for Garrison Apex Forte Solutions Ltd - Bespoke security solutions in the UK.
 
 ## Pages Included
 
@@ -56,14 +56,15 @@ src/
     └── siteData.js          # All content, images, services data
 ```
 
-## Contact Info (from original site)
+## Contact Info
 
-- Phone: +44 (0) 752 697 7812
-- Email: info@k9securityspot.com
-- Address: 42 Erriff Drive, RM15 5AW, Essex, London
+- Phone: 0044 74 1751 5211
+- Email: info@gpforsolutions.com
+- Address: 2 First Floor Room No 7, Gainsborough Road, London E11 1HT
 
 ## Customization
 
 All site content is centralized in `src/data/siteData.js`. 
 Edit that file to update contact info, services, images, etc.
-# gpforsolutions
+
+# Garrison Apex Forte Solutions Ltd

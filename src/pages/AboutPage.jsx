@@ -37,7 +37,7 @@ export default function AboutPage() {
               <Link to="/contact"><button className="btn-gold" style={{ border: "none" }}>Get In Touch</button></Link>
             </div>
             <div style={{ position: "relative" }}>
-              <img src="http://k9securityspot.com/wp-content/uploads/2023/08/WhatsApp_Image_2023-08-15_at_18.08.08-removebg-preview.png"
+              <img src="https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&q=80"
                 alt="Garrison Apex Forte Solutions Ltd" style={{ width: "100%", objectFit: "contain", maxHeight: 420, display: "block" }} />
             </div>
           </div>
