@@ -26,10 +26,10 @@ export default function AboutPage() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }} className="grid-2">
             <div>
               <span className="section-tag">Welcome</span>
-              <h2 className="section-title">Welcome to GP For Solutions Security</h2>
+              <h2 className="section-title">Welcome to Garrison Apex Forte Solutions Ltd</h2>
               <div className="section-divider" />
               <p style={{ color: "#555", lineHeight: 1.9, marginBottom: 20, fontSize: 14 }}>
-                Where safety and security find their ultimate home. At GP For Solutions Security, we are dedicated to providing bespoke security solutions in the UK.
+                Where safety and security find their ultimate home. At Garrison Apex Forte Solutions Ltd, we are dedicated to providing bespoke security solutions in the UK.
               </p>
               <p style={{ color: "#555", lineHeight: 1.9, marginBottom: 32, fontSize: 14 }}>
                 At GPForSolutions, we are dedicated to being the aggressive partner you need in security. We go beyond industry norms, fostering trust and embracing cutting-edge techniques to deliver protection that surpasses your expectations.
@@ -38,7 +38,7 @@ export default function AboutPage() {
             </div>
             <div style={{ position: "relative" }}>
               <img src="http://k9securityspot.com/wp-content/uploads/2023/08/WhatsApp_Image_2023-08-15_at_18.08.08-removebg-preview.png"
-                alt="GP For Solutions Security" style={{ width: "100%", objectFit: "contain", maxHeight: 420, display: "block" }} />
+                alt="Garrison Apex Forte Solutions Ltd" style={{ width: "100%", objectFit: "contain", maxHeight: 420, display: "block" }} />
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function AboutPage() {
               {
                 icon: "🎯",
                 title: "Vision",
-                desc: "GP For Solutions Security envisions a future where elegance and unwavering security converge. We strive to redefine protection in the UK by setting new standards of excellence.",
+                desc: "Garrison Apex Forte Solutions Ltd envisions a future where elegance and unwavering security converge. We strive to redefine protection in the UK by setting new standards of excellence.",
               },
               {
                 icon: "💎",

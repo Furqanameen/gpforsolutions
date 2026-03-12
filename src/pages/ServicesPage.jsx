@@ -25,7 +25,7 @@ export default function ServicesPage() {
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }} className="grid-2">
           <div>
             <img src="https://k9securityspot.co.uk/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-15-at-18.08.08-1024x1024.jpeg"
-              alt="GP For Solutions Security Services"
+              alt="Garrison Apex Forte Solutions Ltd Services"
               style={{ width: "100%", objectFit: "cover", aspectRatio: "1", borderRadius: 2, boxShadow: "0 25px 70px rgba(0,0,0,0.12)" }} />
           </div>
           <div>
@@ -33,7 +33,7 @@ export default function ServicesPage() {
             <h2 className="section-title">More About Services</h2>
             <div className="section-divider" />
             <p style={{ color: "#666", lineHeight: 1.9, marginBottom: 18, fontSize: 14 }}>
-              GP For Solutions Security are a nationwide security company formed with the aim of delivering high quality security services to our clients.
+              Garrison Apex Forte Solutions Ltd are a nationwide security company formed with the aim of delivering high quality security services to our clients.
             </p>
             <p style={{ color: "#666", lineHeight: 1.9, marginBottom: 18, fontSize: 14 }}>
               Our head office is based in Essex with further regional offices in London, Birmingham & Hampshire. We are therefore well-positioned to provide security services to organisations across the UK.

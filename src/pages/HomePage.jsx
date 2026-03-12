@@ -60,7 +60,7 @@ export default function HomePage() {
             <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24 }}>
               <div style={{ width: 48, height: 2, background: "#c8a84b" }} />
               <span style={{ color: "#c8a84b", fontFamily: "'Montserrat',sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: 3, textTransform: "uppercase" }}>
-                GP For Solutions Security
+                Garrison Apex Forte Solutions Ltd
               </span>
             </div>
             <h1 style={{ fontSize: "clamp(2.4rem,5.5vw,4.2rem)", color: "#fff", fontWeight: 900, lineHeight: 1.1, marginBottom: 20, fontFamily: "'Montserrat',sans-serif" }}>
@@ -116,7 +116,7 @@ export default function HomePage() {
             <h2 className="section-title">About Us</h2>
             <div className="section-divider" />
             <p style={{ color: "#666", lineHeight: 1.9, marginBottom: 28, fontSize: 14 }}>
-              At GP For Solutions Security, we are dedicated to providing bespoke security solutions in the UK. With a focus on excellence, innovation, and integrity, we aim to safeguard our clients' interests.
+              At Garrison Apex Forte Solutions Ltd, we are dedicated to providing bespoke security solutions in the UK. With a focus on excellence, innovation, and integrity, we aim to safeguard our clients' interests.
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 36 }}>
               {[
@@ -203,7 +203,7 @@ export default function HomePage() {
       <section style={{ padding: "90px 8%", background: "#0a0a1e" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", textAlign: "center" }}>
           <span className="section-tag" style={{ display: "block" }}>Why Us</span>
-          <h2 className="section-title light" style={{ textAlign: "center" }}>Why Choose GP For Solutions Security?</h2>
+          <h2 className="section-title light" style={{ textAlign: "center" }}>Why Choose Garrison Apex Forte Solutions Ltd?</h2>
           <div className="section-divider centered" />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 2, marginTop: 48 }}>
             {[

@@ -115,7 +115,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div style={{ borderTop: "1px solid #1a1a2e", paddingTop: 28, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
-          <p style={{ fontSize: 12, color: "#444" }}>© 2024 GP For Solutions Security. All rights reserved.</p>
+          <p style={{ fontSize: 12, color: "#444" }}>© 2024 Garrison Apex Forte Solutions Ltd. All rights reserved.</p>
           <div style={{ display: "flex", gap: 24 }}>
             {["Home", "About", "Services", "Contact"].map((p, i) => (
               <Link key={p} to={["/", "/about", "/services", "/contact"][i]}
