@@ -258,13 +258,28 @@ h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; }
     grid-template-columns: 1fr !important;
   }
 
-  /* Hero section padding */
-  section[style*="padding: \"100px 8%\""] {
-    padding: 60px 5% !important;
+  /* Mobile padding - ensure equal padding on both sides */
+  section { 
+    padding-left: 5% !important; 
+    padding-right: 5% !important; 
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
   }
-
-  /* Reduce section padding on mobile */
-  section { padding-left: 5% !important; padding-right: 5% !important; }
+  
+  /* Fix inner content containers */
+  section > div { 
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  /* Ensure text doesn't overflow */
+  p, h1, h2, h3, h4, span { 
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
 
   /* Stat boxes */
   .stat-box { padding: 24px 12px; }
@@ -280,6 +295,26 @@ h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; }
   .btn-gold, .btn-outline-white, .btn-outline-gold {
     padding: 11px 24px;
     font-size: 11px;
+  }
+  
+  /* Fix hero section on mobile */
+  section[style*="100vh"] > div[style*="padding"] {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  
+  /* Fix footer sections on mobile */
+  footer > div {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  
+  /* Fix all content areas on mobile */
+  div[style*="maxWidth: 1200"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
 
