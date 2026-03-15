@@ -114,14 +114,26 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="footer-bottom" style={{ borderTop: "1px solid #1a1a2e", paddingTop: 28, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
-          <p style={{ fontSize: 12, color: "#444" }}>© 2024 Garrison Apex Forte Solutions Ltd. All rights reserved.</p>
-          <div style={{ display: "flex", gap: 24, flexWrap: "wrap", justifyContent: "center" }}>
+        <div className="footer-bottom" style={{ borderTop: "1px solid #1a1a2e", paddingTop: 28, display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 16 }}>
+          <p style={{ fontSize: 12, color: "#a1a5b8" }}>
+            © 2024 Garrison Apex Forte Solutions Ltd. All rights reserved.
+          </p>
+          <a
+            href="https://devhubsol.com/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ fontSize: 12, color: "#d0d3e1", transition: "color 0.2s", textAlign: "center" }}
+            onMouseEnter={e => e.currentTarget.style.color = "#c8a84b"}
+            onMouseLeave={e => e.currentTarget.style.color = "#d0d3e1"}
+          >
+            Developed by DevHubSolutions
+          </a>
+          <div style={{ display: "flex", gap: 24, flexWrap: "wrap", justifyContent: "flex-end" }}>
             {["Home", "About", "Services", "Contact"].map((p, i) => (
               <Link key={p} to={["/", "/about", "/services", "/contact"][i]}
-                style={{ fontSize: 11, color: "#444", fontFamily: "'Montserrat', sans-serif", letterSpacing: 1, textTransform: "uppercase", transition: "color 0.2s" }}
+                style={{ fontSize: 11, color: "#a1a5b8", fontFamily: "'Montserrat', sans-serif", letterSpacing: 1, textTransform: "uppercase", transition: "color 0.2s" }}
                 onMouseEnter={e => e.target.style.color = "#c8a84b"}
-                onMouseLeave={e => e.target.style.color = "#444"}>
+                onMouseLeave={e => e.target.style.color = "#a1a5b8"}>
                 {p}
               </Link>
             ))}
